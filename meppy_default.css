@@ -270,11 +270,11 @@ tr.alt-data-td:hover,tr.data-td:hover {
   margin-top:70px !important;
 }
 
+/* prevent tabs on screens to wrap if they don't fit in the viewport - for example the contact record custom field tabs */
 .tabs {
   white-space: normal;
   border: 0;
 }
-
 
 .tab-blur {
   background-color: #FFF;
@@ -284,7 +284,6 @@ tr.alt-data-td:hover,tr.data-td:hover {
   display: inline-flex;
   padding: 0 3px 8px 3px;
 }
-
 
 .tabs>li>a {
   background-color: #F0F0F0;
