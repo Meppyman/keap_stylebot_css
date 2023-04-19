@@ -1,0 +1,324 @@
+/* 
+  Use the following REGEX in StyleBot: 
+    ^(.*)infusionsoft\.(app\/|com\/)(?!app\/orderForms\/|app\/orderFormRendering\/).*$ 
+*/
+
+#CodeMirror_customFooter > div > div.CodeMirror-scroll.cm-s-default, #CodeMirror_customHeader > div > div.CodeMirror-scroll.cm-s-default, #CodeMirror_productInformation > div > div.CodeMirror-scroll.cm-s-default {
+  height: 500px;
+  width: 1000px
+;
+}
+
+#actionDescription {
+  width: 100%;
+}
+
+#grid_pagecontent > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td.pager-pagination-container {
+  width: 0%;
+}
+
+#inf-content {
+  /*   text-aligh: unset; */
+  width: 80%;
+}
+
+#lightbox {
+  width: 500px;
+}
+
+#lightbox #publishFunnel:hover {
+  background-color: red;
+}
+
+#publish_funnel_div #publish_funnel, #publishFunnel {
+  background-color: #55A737;
+  color: white;
+  width: 90px;
+}
+
+#publish_funnel_div #publish_funnel:not([disabled]):hover {
+  background-color: red;
+}
+
+#publish_funnel_div #publish_funnel[disabled] {
+  opacity: 0.4;
+}
+
+#quick_add_button {
+  color: white;
+}
+
+#quick_add_button:hover {
+  background-color: darkgreen;
+}
+
+#toolbox {
+  left: 250px;
+}
+
+.all-sales-box-positive {
+  background-color: #68b043;
+}
+
+.gadget-body {
+  background-color: #FEFEFE;
+}
+
+.gadget-body:hover {
+  background-color: #F4F4F4;
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.inf-button {
+  background-color: white;
+  border-color: #35a634;
+  color: #35a634;
+  text-align: center;
+  width: fit-content;
+}
+
+.inf-button.button-add {
+  background-color: #35a634;
+  color: white;
+}
+
+.inf-button.button-add:hover {
+  background-color: #0D66D0;
+  border-color: #0D66D0;
+  color: white;
+}
+
+.inf-button:not(.disabled):hover {
+  background-color: #70bd49;
+  border-color: #41802A;
+  color: white;
+}
+
+.inf-linked-accounts-menu-with-rows {
+  max-height: 1000px;
+}
+
+.inf-linked-accounts-menu-with-rows.inf-tooltip-menu-with-rows .inf-tooltip-menu-row a {
+  width: auto;
+}
+
+.inf-select {
+  background-color: white;
+  border-color: #55A737;
+  color: #555555;
+  width: auto;
+}
+
+.inf-select:not(.disabled):hover {
+  background-color: white;
+  color: #55A737;
+}
+
+.page_funnelFunnelEditor #lightbox {
+  overflow: auto ;
+  width: auto;
+}
+
+.pagination .active a {
+  background-color: lightblue;
+}
+
+.statistic {
+  background-color: #67256d;
+}
+
+.subnav-menu-title:hover,.has-subnav-menu:hover {
+  border-bottom: 3px solid #36a635;
+  box-sizing: border-box;
+}
+
+a.dropdown-toggle.menu.inf-button {
+  background-color: #F5F5F5;
+  color: #555555;
+}
+
+
+#funnelContextMenu {
+    display: none;
+}
+
+
+/*
+a {
+    color: #0C437A;
+}
+
+a:hover {
+    color: #35a634;
+}
+*/
+
+div.campaign-toggle.edit-toggle {
+  border-color: #000000;
+  color: #000000;
+}
+
+div.campaign-toggle.edit-toggle.active {
+  background-color: #55A737;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+div.campaign-toggle.reporting-toggle {
+  border-color: #000000;
+  color: #000000;
+}
+
+div.campaign-toggle.reporting-toggle.active {
+  background-color: #55A737;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+div.pill-button {
+  border-color: #000000;
+  color: #000000;
+}
+
+img.campaign-dropdown_chevron1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+input.button {
+  width: auto;
+}
+
+input[type=text], textarea {
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  -webkit-transition: all 0.30s ease-in-out;
+  border: 1px solid #DDDDDD;
+  outline: none;
+  overflow: hidden;
+  padding: 3px 0px 3px 3px;
+  resize: both;
+}
+
+input[type=text]:focus, textarea:focus {
+  border: 1px solid rgba(15, 166, 28, 0.5);
+  box-shadow: 0 0 5px rgba(15, 166, 28, 1);
+  padding: 3px 0px 3px 3px;
+  resize: both;
+}
+
+span.renameStatsBox {
+  color: #0C437A;
+}
+
+table.infusion-field-container td.infusion-field-input-container select {
+  height: auto;
+}
+
+table.ph {
+  max-width: 90%;
+}
+
+td.dt-wrap span a {
+  color: #0C437A;
+}
+
+textarea {
+  resize: both;
+  width: 100%
+;
+}
+
+tr td a {
+  color: #0C437A;
+}
+
+tr td a:hover {
+  color: #35a634;
+}
+
+tr.alt-data-td {
+  background-color: #F5F5F5;
+}
+
+tr.alt-data-td:hover,tr.data-td:hover {
+  background-color: #fff8dc;
+}
+
+#textToolbar {
+  justify-content: left;
+}
+
+#funnel_controls {
+  justify-content: flex-start;
+}
+
+.blockbuilder-preview {
+  margin-top: 70px !important;
+}
+
+.blockbuilder-layer {
+  margin-top: 35px !important;
+}
+
+#u_body > div > div.blockbuilder-layer.blockbuilder-layer-selectable {
+  margin-top:70px !important;
+}
+
+.tabs {
+  white-space: normal;
+  border: 0;
+}
+
+
+.tab-blur {
+  background-color: #FFF;
+}
+
+.tabs>li {
+  display: inline-flex;
+  padding: 0 3px 8px 3px;
+}
+
+
+.tabs>li>a {
+  background-color: #F0F0F0;
+  border: 2px solid #F0F0F0;
+  border-radius: 8px 8px 8px 8px;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  font-size: 1.1em;
+}
+
+.tabs>li>a:hover {
+  background-color: #DADADA;
+  /* border-color: #ABABAB; */
+  /* box-shadow: 0px 0px 5px 2px rgba(0,200,0,0.2); */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  color: darkblue;
+}
+
+.tabs>li.active>a, .tabs>li.selected>a {
+  background-color: #DADADA;
+  position: static;
+  font-weight: 700;
+  color:#36a635;
+ /* border-color: #ABABAB; */
+  box-shadow: 0px 1px 5px 1px rgba(0, 152, 0, 0.3);
+  text-shadow: 0px 0px 5px #FAFAFA;
+}
+
+.bodyContainer {
+    max-width: 550px;
+    width: 100%;
+}
+
+.select2-dropdown {
+  min-width: 350px;
+  max-width: 450px;
+}
