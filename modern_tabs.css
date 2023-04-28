@@ -1,0 +1,60 @@
+/* this changes the tabs at the top of various screens, like the contact record custom field tabs, to look the same as the buttons in the card view in contact quick search */
+
+.tabs {
+  white-space: normal;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  flex-wrap: wrap; 
+  display: inline-flex;
+}
+
+
+.tab-blur {
+  background-color: #FFF;
+}
+
+.tabs>li {
+  display: flex;
+  padding: 0;
+  border: 0;
+  margin: 0 8px 8px 0;
+  height: 29px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 32px 32px 32px 32px;
+}
+
+
+.tabs>li>a {
+  border: 0;
+  padding: 4px 12px 4px 12px;
+  color: black;
+  font-size: 14px;
+  height: 21px;
+  min-width: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 32px 32px 32px 32px;
+}
+
+.tabs>li>a:hover {
+  background-color: #FFFFFF;
+  border-radius: 32px 32px 32px 32px;
+  /* box-shadow: 0px 0px 5px 2px rgba(0,200,0,0.2); */
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.23);
+  color: darkblue;
+}
+
+.tabs>li.active>a, .tabs>li.selected>a {
+  background-color: #FFFFFF;
+  position: static;
+  border-radius: 32px 32px 32px 32px;
+  color:#36a635;
+  box-shadow:0 3px 6px 0 rgba(0,0,0,.16),0 3px 6px 0 rgba(0,0,0,.23);
+}
